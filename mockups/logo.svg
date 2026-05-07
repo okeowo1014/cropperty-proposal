@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#52B788"/>
+    </linearGradient>
+    <linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4A261"/>
+      <stop offset="100%" stop-color="#E76F51"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" fill="#F8F9FA"/>
+  <!-- Mark: house + leaf -->
+  <g transform="translate(60,60)">
+    <rect x="0" y="60" width="200" height="140" rx="20" fill="url(#lg)"/>
+    <path d="M0 90 L100 0 L200 90 Z" fill="#1B4332"/>
+    <!-- leaf -->
+    <path d="M100 30 C 130 60, 150 90, 100 130 C 50 90, 70 60, 100 30 Z" fill="url(#lg2)"/>
+    <!-- midrib -->
+    <line x1="100" y1="35" x2="100" y2="125" stroke="#1B4332" stroke-width="3" stroke-linecap="round"/>
+    <!-- coin in window -->
+    <circle cx="100" cy="160" r="22" fill="#FFD166" stroke="#1B4332" stroke-width="3"/>
+    <text x="100" y="170" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#1B4332" text-anchor="middle">₦</text>
+  </g>
+  <!-- wordmark -->
+  <text x="310" y="170" font-family="Inter, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="#1B4332" letter-spacing="-2">Cropperty</text>
+  <text x="312" y="220" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#52B788" letter-spacing="6">FARMLAND · INVESTED</text>
+</svg>

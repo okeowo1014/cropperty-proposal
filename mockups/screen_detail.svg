@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <defs>
+    <linearGradient id="hero2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#52B788"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+
+  <!-- status bar -->
+  <text x="32" y="34" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#1B4332">9:41</text>
+
+  <!-- map / aerial photo header -->
+  <rect x="0" y="50" width="390" height="320" fill="url(#hero2)"/>
+  <!-- field pattern -->
+  <g opacity="0.45">
+    <path d="M0 110 Q 195 90 390 130 L 390 200 Q 195 180 0 220 Z" fill="#1B4332"/>
+    <path d="M0 220 Q 195 200 390 240 L 390 320 Q 195 300 0 340 Z" fill="#2D6A4F"/>
+    <line x1="0" y1="160" x2="390" y2="180" stroke="#FFD166" stroke-width="1.5"/>
+    <line x1="0" y1="200" x2="390" y2="220" stroke="#95D5B2" stroke-width="1"/>
+    <line x1="0" y1="270" x2="390" y2="290" stroke="#95D5B2" stroke-width="1"/>
+    <circle cx="280" cy="180" r="4" fill="#FFFFFF"/>
+    <circle cx="120" cy="240" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- back + share -->
+  <circle cx="40" cy="80" r="18" fill="#FFFFFF" opacity="0.95"/>
+  <text x="40" y="86" font-family="Arial" font-size="20" font-weight="700" fill="#1B4332" text-anchor="middle">‹</text>
+  <circle cx="312" cy="80" r="18" fill="#FFFFFF" opacity="0.95"/>
+  <text x="312" y="84" font-family="Arial" font-size="14" fill="#1B4332" text-anchor="middle">♡</text>
+  <circle cx="350" cy="80" r="18" fill="#FFFFFF" opacity="0.95"/>
+  <text x="350" y="85" font-family="Arial" font-size="14" fill="#1B4332" text-anchor="middle">↗</text>
+
+  <!-- verified pill -->
+  <rect x="24" y="320" width="138" height="28" rx="14" fill="#FFD166"/>
+  <text x="93" y="338" font-family="Inter, Arial" font-size="11" font-weight="800" fill="#1B4332" text-anchor="middle">✓ TITLE VERIFIED · C of O</text>
+
+  <!-- sheet -->
+  <rect x="0" y="356" width="390" height="488" rx="32" fill="#FFFFFF"/>
+  <rect x="170" y="368" width="50" height="4" rx="2" fill="#E5E7EB"/>
+
+  <text x="24" y="402" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#1B4332">Ofada Ridge Estate</text>
+  <text x="24" y="424" font-family="Inter, Arial" font-size="13" fill="#6B7280">Ewekoro LGA, Ogun State · 2.5 acres · Plot A14</text>
+
+  <!-- price block -->
+  <rect x="24" y="440" width="342" height="80" rx="16" fill="#F8F9FA"/>
+  <text x="40" y="464" font-family="Inter, Arial" font-size="11" font-weight="600" fill="#6B7280" letter-spacing="1.5">OUTRIGHT</text>
+  <text x="40" y="494" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#1B4332">₦8.4M</text>
+  <line x1="180" y1="450" x2="180" y2="510" stroke="#E5E7EB"/>
+  <text x="196" y="464" font-family="Inter, Arial" font-size="11" font-weight="600" fill="#2D6A4F" letter-spacing="1.5">12 INSTALLMENTS</text>
+  <text x="196" y="494" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#2D6A4F">₦740K<tspan font-size="12" font-weight="500" fill="#6B7280">/mo</tspan></text>
+
+  <!-- Highlights -->
+  <text x="24" y="552" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#1B4332" letter-spacing="0.5">HIGHLIGHTS</text>
+
+  <g font-family="Inter, Arial" font-size="12" fill="#1B4332">
+    <rect x="24" y="566" width="106" height="68" rx="14" fill="#D8F3DC"/>
+    <text x="40" y="590" font-size="20">🌱</text>
+    <text x="40" y="612" font-weight="700">Cassava +</text>
+    <text x="40" y="626">Plantain mix</text>
+
+    <rect x="142" y="566" width="106" height="68" rx="14" fill="#FFE8D6"/>
+    <text x="158" y="590" font-size="20">📈</text>
+    <text x="158" y="612" font-weight="700">22-28% IRR</text>
+    <text x="158" y="626">projected</text>
+
+    <rect x="260" y="566" width="106" height="68" rx="14" fill="#E0F2FE"/>
+    <text x="276" y="590" font-size="20">🛰</text>
+    <text x="276" y="612" font-weight="700">Live drone</text>
+    <text x="276" y="626">monitoring</text>
+  </g>
+
+  <!-- ROI projection mini chart -->
+  <text x="24" y="668" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#1B4332">5-YEAR PROJECTION</text>
+  <rect x="24" y="680" width="342" height="84" rx="14" fill="#F8F9FA"/>
+  <polyline points="44,750 100,732 156,720 212,690 268,672 324,640" fill="none" stroke="#2D6A4F" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="44,750 100,732 156,720 212,690 268,672 324,640 324,756 44,756" fill="#2D6A4F" opacity="0.12"/>
+  <g font-family="Inter, Arial" font-size="9" fill="#9CA3AF" text-anchor="middle">
+    <text x="44" y="772">Y0</text>
+    <text x="100" y="772">Y1</text>
+    <text x="156" y="772">Y2</text>
+    <text x="212" y="772">Y3</text>
+    <text x="268" y="772">Y4</text>
+    <text x="324" y="772">Y5</text>
+  </g>
+  <circle cx="324" cy="640" r="5" fill="#FFD166" stroke="#1B4332" stroke-width="2"/>
+  <rect x="270" y="612" width="64" height="22" rx="6" fill="#1B4332"/>
+  <text x="302" y="627" font-family="Inter, Arial" font-size="10" font-weight="700" fill="#FFD166" text-anchor="middle">₦14.6M</text>
+
+  <!-- Sticky CTA -->
+  <rect x="0" y="784" width="390" height="60" fill="#FFFFFF"/>
+  <line x1="0" y1="784" x2="390" y2="784" stroke="#E5E7EB"/>
+  <rect x="24" y="794" width="342" height="44" rx="22" fill="url(#cta)"/>
+  <text x="195" y="820" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#FFD166" text-anchor="middle">RESERVE FROM ₦740,000 / MONTH</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <defs>
+    <linearGradient id="bgd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8F9FA"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="bal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+    <linearGradient id="don" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#F4A261"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" rx="44" fill="url(#bgd)"/>
+
+  <!-- Top -->
+  <text x="32" y="34" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#1B4332">9:41</text>
+  <text x="24" y="86" font-family="Inter, Arial" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="2">PORTFOLIO</text>
+  <text x="24" y="116" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#1B4332">Hi Adaeze, your harvest is ripening 🌾</text>
+
+  <!-- Balance card -->
+  <rect x="24" y="138" width="342" height="170" rx="24" fill="url(#bal)"/>
+  <!-- decorative ring -->
+  <circle cx="340" cy="160" r="80" fill="#52B788" opacity="0.18"/>
+  <circle cx="340" cy="160" r="48" fill="#52B788" opacity="0.18"/>
+  <text x="44" y="172" font-family="Inter, Arial" font-size="11" font-weight="600" fill="#95D5B2" letter-spacing="2">TOTAL VALUE</text>
+  <text x="44" y="212" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#FFFFFF">₦4,250,000</text>
+  <rect x="44" y="224" width="84" height="24" rx="12" fill="#52B788"/>
+  <text x="86" y="241" font-family="Inter, Arial" font-size="11" font-weight="800" fill="#1B4332" text-anchor="middle">▲ 18.4%</text>
+
+  <line x1="44" y1="262" x2="346" y2="262" stroke="#52B788" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="282" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#95D5B2">PRINCIPAL</text>
+  <text x="44" y="298" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#FFFFFF">₦3.6M</text>
+  <text x="160" y="282" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#95D5B2">YIELD PAID</text>
+  <text x="160" y="298" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#FFD166">₦420K</text>
+  <text x="266" y="282" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#95D5B2">APPRECIATION</text>
+  <text x="266" y="298" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#FFFFFF">₦230K</text>
+
+  <!-- Allocation donut -->
+  <text x="24" y="346" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#1B4332">Asset allocation</text>
+  <g transform="translate(108,440)">
+    <circle r="62" fill="none" stroke="#E5E7EB" stroke-width="14"/>
+    <circle r="62" fill="none" stroke="#2D6A4F" stroke-width="14"
+      stroke-dasharray="180 389" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <circle r="62" fill="none" stroke="#FFD166" stroke-width="14"
+      stroke-dasharray="120 389" stroke-dashoffset="-180" transform="rotate(-90)"/>
+    <circle r="62" fill="none" stroke="#E76F51" stroke-width="14"
+      stroke-dasharray="89 389" stroke-dashoffset="-300" transform="rotate(-90)"/>
+    <text y="-2" font-family="Inter, Arial" font-size="11" fill="#6B7280" text-anchor="middle">PLOTS</text>
+    <text y="22" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#1B4332" text-anchor="middle">7</text>
+  </g>
+
+  <g font-family="Inter, Arial" font-size="12" fill="#1B4332">
+    <circle cx="208" cy="402" r="5" fill="#2D6A4F"/>
+    <text x="222" y="406" font-weight="700">Cassava · Ogun</text>
+    <text x="350" y="406" font-weight="700" fill="#1B4332" text-anchor="end">46%</text>
+
+    <circle cx="208" cy="430" r="5" fill="#FFD166"/>
+    <text x="222" y="434" font-weight="700">Cocoa · Oyo</text>
+    <text x="350" y="434" font-weight="700" fill="#1B4332" text-anchor="end">31%</text>
+
+    <circle cx="208" cy="458" r="5" fill="#E76F51"/>
+    <text x="222" y="462" font-weight="700">Maize · Kaduna</text>
+    <text x="350" y="462" font-weight="700" fill="#1B4332" text-anchor="end">23%</text>
+  </g>
+
+  <!-- Installments -->
+  <text x="24" y="528" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#1B4332">Active installment plan</text>
+  <rect x="24" y="544" width="342" height="106" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="40" y="572" font-family="Inter, Arial" font-size="13" font-weight="700" fill="#1B4332">Saki Cocoa Plantation</text>
+  <text x="40" y="592" font-family="Inter, Arial" font-size="11" fill="#6B7280">Plot 4 of 12 paid · Next due May 28</text>
+  <!-- progress -->
+  <rect x="40" y="606" width="310" height="8" rx="4" fill="#E5E7EB"/>
+  <rect x="40" y="606" width="103" height="8" rx="4" fill="url(#don)"/>
+  <text x="40" y="634" font-family="Inter, Arial" font-size="11" font-weight="700" fill="#2D6A4F">₦840,000 paid</text>
+  <text x="350" y="634" font-family="Inter, Arial" font-size="11" font-weight="700" fill="#6B7280" text-anchor="end">₦1,680,000 remaining</text>
+
+  <!-- Recent activity -->
+  <text x="24" y="678" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#1B4332">Activity</text>
+  <g font-family="Inter, Arial">
+    <circle cx="40" cy="708" r="14" fill="#D8F3DC"/>
+    <text x="40" y="713" font-size="14" text-anchor="middle">↓</text>
+    <text x="64" y="708" font-size="13" font-weight="700" fill="#1B4332">Yield payout · Ofada Ridge</text>
+    <text x="64" y="724" font-size="11" fill="#6B7280">Today · 06:41</text>
+    <text x="350" y="712" font-size="13" font-weight="800" fill="#2D6A4F" text-anchor="end">+₦62,400</text>
+
+    <circle cx="40" cy="752" r="14" fill="#FFE8D6"/>
+    <text x="40" y="757" font-size="14" text-anchor="middle">↑</text>
+    <text x="64" y="752" font-size="13" font-weight="700" fill="#1B4332">Installment 4 · Saki Cocoa</text>
+    <text x="64" y="768" font-size="11" fill="#6B7280">Apr 28 · Auto-debit</text>
+    <text x="350" y="756" font-size="13" font-weight="800" fill="#1B4332" text-anchor="end">−₦210,000</text>
+  </g>
+
+  <!-- Tab -->
+  <line x1="0" y1="800" x2="390" y2="800" stroke="#E5E7EB"/>
+  <g font-family="Inter, Arial" font-size="10" font-weight="700">
+    <text x="55" y="836" fill="#9CA3AF" text-anchor="middle">Home</text>
+    <text x="143" y="836" fill="#9CA3AF" text-anchor="middle">Explore</text>
+    <circle cx="231" cy="816" r="3" fill="#2D6A4F"/>
+    <text x="231" y="836" fill="#2D6A4F" text-anchor="middle">Portfolio</text>
+    <text x="319" y="836" fill="#9CA3AF" text-anchor="middle">Account</text>
+  </g>
+</svg>
